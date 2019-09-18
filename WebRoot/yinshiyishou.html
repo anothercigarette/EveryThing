@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>唐诗一首</title>
+    <style type="text/css">
+        body{
+            background-image: url("./img/T.jpeg");
+            background-size: 100% 100%;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+         /*h1,#biaoti*/
+         /*{*/
+         /*    position:absolute;*/
+         /*    width:100%;*/
+         /*    text-align:center;*/
+         /*    margin: 10px; auto;*/
+         /*}*/
+        #shang
+        {
+            fint-size:100px;
+            position:absolute;
+            width:100%;
+            text-align:center;
+            animation: myfirst 6s infinite;
+        }
+        #xia
+        {
+            fint-size:100px;
+            position:absolute;
+            width:100%;
+            text-align:center;
+            animation: myseconds 6s infinite;
+        }
+        #music
+        {
+            margin: 10px; auto;
+        }
+        @keyframes myfirst
+        {
+            /*from {background:red;}*/
+            /*to {background:green;}*/
+            /*from {opacity:0}*/
+            /*to {opacity:100}*/
+            0%   {opacity: 0;}
+            25%  {opacity: 100;}
+            50%  {opacity: 0;}
+            75%  {opacity: 0;}
+            100% {opacity: 0;}
+        }
+        @keyframes myseconds
+        {
+            0%   {opacity: 0;}
+            25%   {opacity: 0;}
+            50%  {opacity: 0;}
+            75%  {opacity: 100;}
+            100% {opacity: 0;}
+        }
+    </style>
+</head>
+<body>
+<!--    <img src = "./img/T.jpeg"/>-->
+    <audio id="nusmic" src="https://win-web-rh01-sycdn.kuwo.cn/8b10506ee43bd621f94d2a5991e71a7f/5d81e9d5/resource/n3/19/99/1188105613.mp3" type="audio/mp3" controls="controls" autoplay="autoplay" loop="loop">
+    </audio>
+<!--    <h1>夜雨寄北</h1>-->
+<!--      <p id="biaoti">【作者】：李商隐</p>-->
+      <p id="shang">君问归期未有期，巴山夜雨涨秋池。</p>
+      <p id="xia">何当共剪西窗烛，却话巴山夜雨时。</p>
+</body>
+</html>

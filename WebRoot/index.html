@@ -16,23 +16,33 @@
          {
              animation:myfirst 2s infinite;
          }
-
+        #music
+        {
+            margin: 10px; auto;
+        }
         @keyframes myfirst
         {
             /*from {background:red;}*/
             /*to {background:green;}*/
-            from {opacity:0}
-            to {opacity:100}
-            /*0%   {background: red;}*/
-            /*25%  {background: yellow;}*/
-            /*50%  {background: blue;}*/
-            /*100% {background: green;}*/
+            /*from {opacity:0}*/
+            /*to {opacity:100}*/
+            0%   {background: 0;}
+            25%  {background: 100;}
+            50%  {background: 0;}
+            100% {background: 0;}
+        }
+        @keyframes myseconds
+        {
+            0%   {background: 0;}
+            25%  {background: 100;}
+            50%  {background: 0;}
+            100% {background: 0;}
         }
     </style>
 </head>
 <body>
 <!--    <img src = "./img/T.jpeg"/>-->
-    <audio src="/song/fhms.mp3" controls="controls" autoplay="autoplay">
+    <audio id="nusmic" src="https://win-web-rh01-sycdn.kuwo.cn/8b10506ee43bd621f94d2a5991e71a7f/5d81e9d5/resource/n3/19/99/1188105613.mp3" type="audio/mp3" controls="controls" autoplay="autoplay">
     </audio>
     <h1>夜雨寄北</h1>
       <p>【作者】：李商隐</p>
